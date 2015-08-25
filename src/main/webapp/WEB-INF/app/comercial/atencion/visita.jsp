@@ -30,7 +30,7 @@
                 </td>                
                 <td> 
                     Fecha de Salida: <fmt:formatDate value="${v.fechaSalida}" pattern="dd/MM/yyyy" /><br/>  
-                    Proxima visita: ${v.proximaVisita}<br/>                      
+                    Proxima visita: <fmt:formatDate value="${v.proximaVisita}" pattern="dd/MM/yyyy" /><br/>                      
                 </td>
                 <td> 
                     <span class="label label-${v.fechaSalida == null ? "success" :"danger" }">
